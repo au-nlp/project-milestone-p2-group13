@@ -59,3 +59,34 @@ Subset travel has lenght 18
 Subset weddingplanning has lenght 23
 Subset cooking has lenght 3
 Subset getmotivated has lenght 13
+
+Validation subsets:
+Subset askreddit has lenght 891
+Subset pettyrevenge has lenght 23
+Subset relationships has lenght 3462
+Subset running has lenght 33
+Subset tifu has lenght 421
+Subset relationship_advice has lenght 478
+Subset pets has lenght 19
+Subset advice has lenght 109
+Subset jobs has lenght 52
+Subset self has lenght 71
+Subset loseit has lenght 78
+Subset askwomenadvice has lenght 35
+Subset legaladvice has lenght 119
+Subset personalfinance has lenght 139
+Subset books has lenght 7
+Subset offmychest has lenght 70
+Subset dating_advice has lenght 160
+Subset needadvice has lenght 23
+Subset weddingplanning has lenght 20
+Subset cats has lenght 21
+Subset getmotivated has lenght 11
+Subset travel has lenght 34
+Subset dogs has lenght 34
+Subset askdocs has lenght 22
+Subset breakups has lenght 52
+Subset college has lenght 21
+Subset parenting has lenght 19
+Subset dogtraining has lenght 19
+Subset cooking has lenght 4
