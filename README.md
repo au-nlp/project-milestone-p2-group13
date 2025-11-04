@@ -21,7 +21,9 @@ The dataset needs minimal preprocessing and the only real preprocessing needed i
 
 ## Timeline
 
-We have started with evaluating the first 3 models listed above with the 3 first metrics listed there too. When we get a better overview over how the models perfomrm and better understanding of the metrics, we will consider if we should look at different models or if we should try to finetune the five models on our dataset.
+For project milestone 2, we have started with evaluating the first 3 models listed above with the 3 first metrics listed there too. The goal is to prove that we can handle the amount of data, that we can display usable results, and that there exists biases in LLMs.
+
+For project milestone 3, we will consider the rest of the models and the metrics. The goal is to make a complete analysis of biases in the models and the metrics. In case that the project has additional time available, we will extend the experiment with additional models and metrics. Additionally, in case of additional time we would like to extend the research by finetuning the models on the TL;DR dataset, and then evaluate the models again. The goal of this is to test the models for fundamental biases in the architecture of the models. The hope is that the architecture of some of the models as better suited for certain topics, and that we can unveil these biases by first finetuning the models to the data, and then seeing which biases remain.
 
 We considered extending with different datasets to increase the amount of topics in the data, however, we have chosen to extend the experiments with more models and metrics in order to find biases in as many models and metrics as possible. However, if the project has a considerable amount of additional time, we will include different datasets in order to test the models for an extended amount of biases.
 
