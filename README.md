@@ -23,7 +23,10 @@ The dataset needs minimal preprocessing and the only real preprocessing needed i
 
 We have started with evaluating the first 3 models listed above with the 3 first metrics listed there too. When we get a better overview over how the models perfomrm and better understanding of the metrics, we will consider if we should look at different models or if we should try to finetune the five models on our dataset.
 
+We considered extending with different datasets to increase the amount of topics in the data, however, we have chosen to extend the experiments with more models and metrics in order to find biases in as many models and metrics as possible. However, if the project has a considerable amount of additional time, we will include different datasets in order to test the models for an extended amount of biases.
+
 ## Milestones
+
 - The first 3 models
 - The first 3 metrics
 - The rest of models and metrics
@@ -50,6 +53,7 @@ We have started with evaluating the first 3 models listed above with the 3 first
 # Appendix
 
 ## Repository Organisation
+
 main.ipynb ... our preliminary data analysis and the three pipelines
 test_data, train_data, validation_data ... folders with subsets of our data
 
