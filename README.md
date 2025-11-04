@@ -16,13 +16,19 @@ Do we need this section or is solely for additional datasets? I guess we could d
 
 ## Methods
 
-The project will be evaluating 5 different models, which all have in common that they are have a very high download rate on huggingface.co[2]. The 5 models are bart-large [3], T5 small [4], Bart base [5], Pegasus [6], and T5 Small [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], GLUE[10], NOIR[11], BERT-Score[12], BLEU[13]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information
+The project will be evaluating 5 different models, which all have in common that they are have a very high download rate on huggingface.co[2]. The 5 models are T5 small [4], Bart base [5], Pegasus [6], bart-large [3], and T5 Large [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], NOIR[11], GLUE[10], BERT-Score[12], BLEU[13]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information
 
 ## Timeline
 
-We will start with evaluating the 5 models listed above with the metrics listed there too. When we get a better overview over how the models perfomrm and better understanding of the metrics, we will consider if we should look at different models or if we should try to finetune the five models on our dataset.
+We have started with evaluating the first 3 models listed above with the 3 first metrics listed there too. When we get a better overview over how the models perfomrm and better understanding of the metrics, we will consider if we should look at different models or if we should try to finetune the five models on our dataset.
 
 ## Milestones
+- The first 3 models
+- The first 3 metrics
+- The rest of models and metrics
+- Analyse deeply results
+- Decide if finetune some of the used models or try another models
+- Compare results
 
 ## References
 
@@ -32,7 +38,7 @@ We will start with evaluating the 5 models listed above with the metrics listed 
 [4] https://huggingface.co/Falconsai/text_summarization
 [5] https://huggingface.co/ainize/bart-base-cnn
 [6] https://huggingface.co/google/pegasus-xsum  
-[7] https://huggingface.co/google-t5/t5-small
+[7] https://huggingface.co/google-t5/t5-large
 [8] https://huggingface.co/spaces/evaluate-metric/rouge
 [9] https://huggingface.co/spaces/evaluate-metric/bleurt
 [10] https://huggingface.co/spaces/evaluate-metric/glue
@@ -43,11 +49,11 @@ We will start with evaluating the 5 models listed above with the metrics listed 
 # Appendix
 
 ## Repository Organisation
+main.ipynb ... our preliminary data analysis and the three pipelines
+test_data, train_data, validation_data ... folders with subsets of our data
 
 ## Questions for TAs
 
 Optional
 
 # Own Notes
-
-We have two t5 small models which is probably not a very good idea
