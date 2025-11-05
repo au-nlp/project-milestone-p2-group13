@@ -11,13 +11,12 @@ def show_me(source, my_title):
     ).properties(width=800).interactive()
     
     
-def show_me_more(source, my_title):
+def show_me_more(source, my_title, my_color, reverse_color=True):
     bar = alt.Chart(source, title=my_title).mark_bar().encode(
     x=alt.X('Topics:N').sort(),
     y='amount:Q',
     tooltip='amount',
-    color='amount'
-
+    color=alt.Color('amount').scale(scheme=my_color, reverse=reverse_color) #the color change does not work
     ).interactive()
 
     rule = alt.Chart(source).mark_rule(color='magenta').encode(
