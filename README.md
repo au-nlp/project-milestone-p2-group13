@@ -60,9 +60,6 @@ main.ipynb ... our data analysis and preliminary model evaluation and metric ana
 evals ...folder with results of preliminary evaluation run on 114 examples from each subreddit
 test_data, train_data, validation_data ... folders with subsets of our data
 
-
 ## Questions for TAs
 
 Under our Milestones, we have listed 3 items marked (if time permits). We would like to ask for advise about which of them should we focus on most, i.e. which one should we prioritize.
-
-# Own Notes
