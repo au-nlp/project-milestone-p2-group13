@@ -1,0 +1,4 @@
+#Installations needed to evaluate the models
+pip install evaluate
+pip install git+https://github.com/google-research/bleurt.git
+pip install rouge_score
