@@ -23,3 +23,35 @@ def show_me_more(source, my_title, my_color, reverse_color=True): # bar chart wi
     y='mean(amount):Q'
     )
     return (bar + rule).properties(width=600)
+
+
+# This is the NOIR metric which has been retreived from the repository https://github.com/afoland/NOIR
+# (C) Andrew Foland, Sonnetiq, 2024; license granted under Apache 2.0
+import torch
+from transformers import AutoModel, AutoTokenizer
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+
+def calculate_cosine_similarity(vector1, vector2):
+    # Calculate cosine similarity between two vectors
+    return cosine_similarity([vector1], [vector2])[0][0]
+
+def embed_string(text, model, tokenizer):
+    input_ids = tokenizer.encode(text, return_tensors='pt', max_length=512, truncation=True)
+    with torch.no_grad():
+        embedding = model(input_ids).last_hidden_state.mean(dim=1).squeeze().tolist()
+    return embedding
+
+noir_model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
+noir_tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
+def NOIR(text, summary):
+    text_embedding = embed_string(text, noir_model, noir_tokenizer)
+    summary_embedding = embed_string(summary, noir_model, noir_tokenizer)
+    D = calculate_cosine_similarity(text_embedding, summary_embedding)
+
+    text_length = len(noir_tokenizer.encode(text))
+    summary_length = len(noir_tokenizer.encode(summary))
+    k = summary_length / text_length
+
+    sque_metric = np.log(k) / np.log(D)
+    return sque_metric
