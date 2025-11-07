@@ -30,12 +30,15 @@ We considered extending with different datasets to increase the amount of topics
 
 ## Milestones
 
-- The first 3 models
-- The first 3 metrics
-- The rest of models and metrics
-- Analyse deeply results
-- Decide if finetune some of the used models or try another models
-- Compare results
+The miles stones of the project are:
+
+- Run the analysis on the first 3 models.
+- Evaluate the models on the first 3 metrics.
+- Run the analysis on the rest of models and evaluate with the rest of the metrics.
+- (If time permits) Extend the analysis with extra models and metrics.
+- (If time permits) Fine tune models to test for more fundamental biases.
+- (If time permits) Extend data with new datasets.
+- Analyse results and do both the quantitative and case study analysis.
 
 ## References
 
