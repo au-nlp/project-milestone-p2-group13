@@ -10,10 +10,6 @@ This paper examines the possible existence of biases in commonly used LLMs and e
 
 The contribution of this paper is to provide crucial insights into the biases of commonly used LLMs. This knowledge will improve the use of these models by providing information on short comings of the different models. Additionally, it could help improving the models performance in general by showing the weaknesses of the models, and thereby providing a starting point for further training of the models. Furthermore, this paper contributes with information on biases in metrics which help researchers by choosing metrics that best fit their data type.
 
-## Datasets
-
-Do we need this section or is solely for additional datasets? I guess we could describe the TL;DR dataset and how we are going to use it.
-
 ## Methods
 
 The project will be evaluating 5 different models, which all have in common that they are have a very high download rate on huggingface.co[2]. The 5 models are T5 small [4], Bart base [5], Pegasus [6], bart-large [3], and T5 Large [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], NOIR[11], GLUE[10], BERT-Score[12], BLEU[13]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information. Not all topics are represented equally in the dataset and to ensure equal representation of topics we will use 114 prompts from each topic, as this is the amount of topics in the least represented topic. We will be using the training part of the dataset in order to maximize the amount of data to evaluate the models on. Using the training part of the dataset is not causing problems as none of the models are trained on this dataset.
@@ -60,11 +56,13 @@ The miles stones of the project are:
 
 ## Repository Organisation
 
-main.ipynb ... our preliminary data analysis and the three pipelines
+main.ipynb ... our data analysis and preliminary model evaluation and metric analysis
+evals ...folder with results of preliminary evaluation run on 114 examples from each subreddit
 test_data, train_data, validation_data ... folders with subsets of our data
+
 
 ## Questions for TAs
 
-Optional
+Under our Milestones, we have listed 3 items marked (if time permits). We would like to ask for advise about which of them should we focus on most, i.e. which one should we prioritize.
 
 # Own Notes
