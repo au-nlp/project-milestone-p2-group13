@@ -38,19 +38,19 @@ The miles stones of the project are:
 
 ## References
 
-[1] https://huggingface.co/datasets/trl-lib/tldr
-[2] https://huggingface.co/
-[3] https://huggingface.co/facebook/bart-large-cnn
-[4] https://huggingface.co/Falconsai/text_summarization
-[5] https://huggingface.co/ainize/bart-base-cnn
-[6] https://huggingface.co/google/pegasus-xsum  
-[7] https://huggingface.co/google-t5/t5-large
-[8] https://huggingface.co/spaces/evaluate-metric/rouge
-[9] https://huggingface.co/spaces/evaluate-metric/bleurt
-[10] https://huggingface.co/spaces/evaluate-metric/glue
-[11] "AN AUTOMATED LENGTH-AWARE QUALITY METRIC FOR SUMMARIZATION", https://arxiv.org/pdf/2507.07653
-[12] https://huggingface.co/spaces/evaluate-metric/bertscore
-[13] https://huggingface.co/spaces/evaluate-metric/bleu
+[1] trl-lib/tldr · Datasets at Hugging Face. 6. november 2025, https://huggingface.co/datasets/trl-lib/tldr.
+[2] Hugging Face – The AI community building the future. https://huggingface.co/.
+[3] facebook/bart-large-cnn · Hugging Face. 18. januar 2024, https://huggingface.co/facebook/bart-large-cnn.
+[4] Falconsai/text_summarization · Hugging Face. https://huggingface.co/Falconsai/text_summarization. Seen oct 2025.
+[5] ainize/bart-base-cnn · Hugging Face. 18. januar 2024, https://huggingface.co/ainize/bart-base-cnn.
+[6] google/pegasus-large · Hugging Face. https://huggingface.co/google/pegasus-large. Seen oct 2025.
+[7] google-t5/t5-large · Hugging Face. 5. marts 2024, https://huggingface.co/google-t5/t5-large.
+[8] ROUGE - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/rouge. Seen oct 2025.
+[9] BLEURT - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bleurt. Seen oct 2025.
+[10] GLUE - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/glue. Seen oct 2025.
+[11] Foland, Andrew D. “An Automated Length-Aware Quality Metric for Summarization”. arXiv:2507.07653, arXiv, 10. juli 2025. arXiv.org, https://doi.org/10.48550/arXiv.2507.07653.
+[12] BERT Score - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bertscore. Seen oct 2025.
+[13] BLEU - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bleu. Seen oct 2025.
 
 # Appendix
 
