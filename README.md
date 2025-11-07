@@ -12,7 +12,7 @@ The contribution of this paper is to provide crucial insights into the biases of
 
 ## Methods
 
-The project will be evaluating 5 different models, which all have in common that they are have a very high download rate on huggingface.co[2]. The 5 models are T5 small [4], Bart base [5], Pegasus [6], bart-large [3], and T5 Large [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], NOIR[11], GLUE[10], BERT-Score[12], BLEU[13]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information. Not all topics are represented equally in the dataset and to ensure equal representation of topics we will use 114 prompts from each topic, as this is the amount of topics in the least represented topic. We will be using the training part of the dataset in order to maximize the amount of data to evaluate the models on. Using the training part of the dataset is not causing problems as none of the models are trained on this dataset.
+The project will be evaluating 5 different models, which all have in common that they have a very high download rate on huggingface.co[2]. The 5 models are T5 small [4], Bart base [5], Pegasus [6], bart-large [3], and T5 Large [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], NOIR[11], GLUE[10], BERT-Score[12], BLEU[13]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information. Not all topics are represented equally in the dataset and to ensure equal representation of topics we will use 114 prompts from each topic, as this is the amount of topics in the least represented topic. We will be using the training part of the dataset in order to maximize the amount of data to evaluate the models on. Using the training part of the dataset is not causing problems as none of the models are trained on this dataset.
 The dataset needs minimal preprocessing and the only real preprocessing needed is to devide the dataset into their respective subreddits. The information of which subreddit a post belongs to is provided as the first information in the prompt. Therefore, the dataset is divided by this provided label. All preprocessing needed for the individual model is handeled by the pipeline functionality of huggingface[1].
 Additionally, the study will include a case study of different examples for each of the models to provide an explanation of why the models/metrics have the biases that was found in the study.
 
@@ -59,6 +59,8 @@ The miles stones of the project are:
 main.ipynb ... our data analysis and preliminary model evaluation and metric analysis
 evals ...folder with results of preliminary evaluation run on 114 examples from each subreddit
 test_data, train_data, validation_data ... folders with subsets of our data
+helper_funks.py ... helper functions needed for evaluation of the models, however, not a central part of the main logic.
+The remaining files are mainly used for internal use and testing in the group.
 
 ## Questions for TAs
 
