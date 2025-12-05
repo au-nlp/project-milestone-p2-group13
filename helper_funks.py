@@ -8,7 +8,7 @@ def show_me(source, my_title): # simple box plot
         y='value',
         color='column'
         
-    ).properties(width=800).interactive()
+    ).properties(width=800)
     
     
 def show_me_more(source, my_title, my_color, reverse_color=True): # bar chart with line showing average
