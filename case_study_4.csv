@@ -1,0 +1,284 @@
+,model,subreddit,prompt,summary,label
+0,ainize/bart-base-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: My appetite is changing, concerned about calorie intake.
+
+POST: I'm female, 25, 140 pounds. A couple years ago I used to be 125 pounds. When I weighed that much I didn't eat too much and I was moderatly active. My guess is that I ate around 1000 calories a day. Now that I'm eating healthier foods that make me fuller longer, I'm not as hungry. Yesterday I ate about 950 calories and I really didn't feel hungry for more. I know that eating too little calories can be bad for your weight loss (and your health). Is it okay to eat under my calories intake goal of 1200 a couple times a week?
+
+TL;DR:","Loseit: I'm female, 25, 140 pounds. A couple years ago I used to be 125 pounds.
+Now that I'm eating healthier foods that make me fuller longer, I'm not as hungry.
+Is it okay to eat under my calories intake goal of 1200 a couple times a week?", Is it okay to eat under my calorie goal of 1200 a couple times a week? Or will that slow down my weight loss?
+1,ainize/bart-base-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Starting My Journey
+
+POST: Hey guys! I've been quite the lurk for a while and have decided to make my first post. Two ears ago I used to volleyball and was in great shape, but I noticed till now. My mom used to call me obese even though I wasn't but I believed her. I quit my sport because I thought I was never good enough. Through the past two years I've gained 50 pounds. This month I was looking at some old photos and realized I just had a really bad self image. So this week I began my weight loss journey. I've already lost 4.4 pounds since this Monday and I'm feeling great. Hopefully I can't get back to my original weight. If anyone else is doing the Paleo diet feel free to leave any advice. I'd appreciate it a lot. If anyone is doing the paleo diet due to an autoimmune disease, please tell me how it improved your health. So far this week I haven't had a single stomach ache which is crazy since I've had them as long as I can remember. Just wondering if anyone had any results. Thanks for hearing me out!
+
+TL;DR:","This week I began my weight loss journey .
+I've already lost 4.4 pounds since this Monday and I'm feeling great .
+If anyone else is doing the Paleo diet feel free to leave any advice .", I'm taking control of my life again and dropping 50 pounds so I can look smoking in a bikini. Any advice is welcome.
+2,ainize/bart-base-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: 1200 cals a day & gymming 2-3 times a week but only losing 1lb a week. [F,5'8,138 lbs]
+
+POST: Guilty as charged, I left getting in shape before my holiday a little later than planned. So I had 8 weeks with a goal of losing a stone which seems pretty reasonable,  right? 
+
+Now I'm three weeks in and only 3 lbs down which I know is still a loss and any weight off is still great... But my target is thrown now and I'm getting frustrated with how slowly the weight is coming off. 
+
+Am I wrong to think that I should be losing weight quicker, eating 1200 calories and going to the gym two to three times a week? If not, does anyone have any thoughts why progress is so slow and any ideas on how to speed it up?
+
+TL;DR:","I left getting in shape before my holiday a little later than planned .
+So I had 8 weeks with a goal of losing a stone which seems pretty reasonable, right?
+Now I'm three weeks in and only 3 lbs down which I know is still a loss and any weight off is still great .
+But my target is thrown now and I'm getting frustrated with how slowly the weight is coming off ."," Three weeks on 1200 calories, gym trips 2-3 times a week, only losing 1lb a week. Why and how to speed it up?"
+3,ainize/bart-base-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: [F, 5'5"", SW: 165, CW: 159] I dropped 3.44% body fat over the course of the semester; my triceps skin-fold went from 19mm to 13mm!!
+
+POST: So I'm a Kinesiology major, and one of my classes this semester was a Physical and Motor Fitness Assessment. So lots of training was done to hit specific physical goals; for example, based on body weight I needed to leg press 355, I had to vertical jump 22 inches, and run a 21.0 200m dash (I got a B with 21.5 seconds), and many more diabolical things.
+
+It's a tough course.
+
+At the start of the semester we did a body composition lab, taking measurements and skin-folds to assess our risks of developing health problems as we age. 
+
+**My original numbers:**
+
+Height- 5'5""
+
+Weight- 165 lbs
+
+Triceps- 19mm
+
+[Iliac Crest] 16mm
+
+Thigh- 18mm
+
+Waist- 29 in.
+
+Hips- 41 in.
+
+[Body Fat Percentage] *21.12%*
+
+**My new numbers:**
+
+Height- 5'5""
+
+Weight- 159.1 lbs
+
+Triceps- 13mm
+
+Iliac Crest- 14mm
+
+Thigh- 16mm
+
+Waist- 29 in.
+
+Hips- 41 in.
+
+Body Fat Percentage- *17.68%*
+
+*****
+
+I'm in shock. 
+
+I was always the kinda lazy basketball player, always somewhat out of shape for the season. I could play entire games without sitting, but I wasn't as good as I could have been. I was able to get away with it due to good fundamental skills, unfortunately. I've never trained for anything like I have for this class. I assume it's because I'm getting a grade...
+
+TL;DR:","Kinesiology major dropped 3.44% body fat over the course of the semester .
+His triceps skin-fold went from 19mm to 13mm ."," I dropped 6 lbs and went from 21 to 17.7% body fat, I feel like an athlete! Some clothes fit better and some look humongous!!!"
+4,google/pegasus-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Newbie help, feeling down about no progress.
+
+POST: I'm really sorry if I shouldn't be posting this, I read the FAQ's and read a few inspiring stories I found through the search bar but I was just wondering If I could get some help on starting out. I really suck at this and its starting to really get me down. 
+  
+I'm Female, 20, 5'5"" and weigh 185lbs. I'm wanting to lose any weight, just something to prove to myself I can do this. Of course I'd love to weigh 126lbs but I don't think that's a real goal. I think I just need to lose some weight and begin feeling/seeing a difference to make me realise this is possible and I'm not gonna feel like this forever. I don't wanna put a date on anything, there's no rush and I'd rather do this properly no matter how long it takes.  
+
+So a little about me and my diet / exercise.
+    
+- I find it hard to run because I'm short of breath and it really hurts my bust even with a sports bra (36 E bust). I kinda feel like a tool when running too because I'm just so crap at it.   
+- I've got an exercise bike and bicycle but I find I get bored and end up resenting both of them. I also kinda kick the hell out of both and end up cycling for x amount of calories burnt.   
+- I'm terrified of the gym because I'm covered in stretch marks all over and I'm just shy. Stupid I know.  
+- My diet consists of drinking only water and consuming 1,400 calories at max a day. I think I'm doing something wrong.  
+  
+**So what's the best way to start?**  
+Would walking everyday really make a difference?  
+Should I be drinking something else other than water?  
+Any tips for not getting bored with exercise or to help running?  
+Any exercises that are actually better to be doing when starting out?  
+  
+I don't know, just anything at all would be such a huge help.
+
+TL;DR:",I think I just need to lose some weight and begin feeling/seeing a difference to make me realise this is possible and I'm not gonna feel like this forever. I kinda feel like a tool when running too because I'm just so crap at it. - I've got an exercise bike and bicycle but I find I get bored and end up resenting both of them., Overweight female wants to lose weight. Whats the best exercises I should be doing to not lose motivation and see results?
+5,google/pegasus-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Fat loss and working out week 1.
+
+POST: Hello everyone that might be reading this,
+
+I'm a 20 year old that has been overweight/fat for a long period of my life. I peaked at 210 lbs or 92 kg when I was about 16, from that point on I decided to lose the weight no matter what. I ate a lot less, exercised sometimes and dropped down to my lowest point ever of 145lbs/64kg. I'm 6'1/183cm.
+
+Seeing as my body got what a lot of people refer to as skinny-fat, I am now deciding to work on my body with something I have never done before, lifting weights.
+
+At the moment I am 71kg/156lbs. (I tried to put on some muscle but my diet was still crappy, this is my own fault, I know what my diet should consist of.)
+
+But after deciding what I was going to do, I have no idea how to tackle an obstacle that I have been facing almost my entire life.
+
+I hate being fat/seeing fat flab around on my body. For once I'd like to have a flat stomach and see what it's like just feeling good about my body. 
+
+Would it be a good idea to lower my body fat percentage to a good amount before I start my weight lifting routine? (Starting Strength.)
+Cause at the moment I'm afraid my fat percentage would increase to a point where I'd look fat eventhough I'd be gaining muscle.
+
+Regardless of which option I will take (losing fat before starting my routine or just starting my routine and losing fat later.) I will be posting a bi-weekly update to keep myself motivated, and to inform others on what would be the good way to tackle this.
+
+TL;DR:",Would it be a good idea to lower my body fat percentage to a good amount before I start my weight lifting routine? (Starting Strength.) Cause at the moment I'm afraid my fat percentage would increase to a point where I'd look fat eventhough I'd be gaining muscle.," Lost 40lbs before, still skinnyfat. Go from skinnyfat to skinny and then to fit, or from skinnyfat to fit-ish and then dieting down to fit."
+6,google/pegasus-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: 16, F, depressed skinny-fat vegetarian in need of advice.
+
+POST: Backstory: I was pure skin and bones my whole life, until about two years ago, when the stress of dealing with an alcoholic parent triggered an intense episode of depression. I attempted to numb myself by obsessively over-eating, and watched the number on the scale slowly crawl upwards as months went by and the binging continued.  
+
+I'm 16 now. 5'3"", ~115 lbs. Still stressed, still a compulsive over-eater. I recognize that my weight sounds normal for my height/age, but I'm INCREDIBLY small-boned, and I basically have no muscle mass; I'm chubby. And I want to lose this fat.  
+
+I've been lurking on r/loseit for about six months now. I know about keto, I know that my 3-5 jogging sessions every week will help me get fit but probably won't aid me much in terms of burning calories, I never drink soda or juice, and I always track my calories... but I can't maintain a caloric deficit.  
+
+It's not a hunger issue; if I only eat when I'm hungry, I'll probably only consume ~1000 calories a day. I just don't get hungry often. But I constantly crave food. I get antsy if I don't have something to snack on, and I push myself to eat until I feel like I'm going to vomit. I can't get through more than two days of healthy eating. To top it all off, I've been a vegetarian for three years, and I can't cook, so making healthy dishes is incredibly difficult. My father refuses to take my health goals seriously, because he fears that I'm only going to send myself spiraling into depression if I start worrying about my weight.
+
+TL;DR:","SUBREDDIT: r/loseit TITLE: 16, F, depressed skinny-fat vegetarian in need of advice. I know about keto, I know that my 3-5 jogging sessions every week will help me get fit but probably won't aid me much in terms of burning calories, I never drink soda or juice, and I always track my calories... My father refuses to take my health goals seriously, because he fears that I'm only going to send myself spiraling into depression if I start worrying about my weight."," Stress drives me to over-eat nearly every day, and, although I know almost everything there is to know about HOW to lose weight, I don't know how to motivate myself to maintain a healthy lifestyle."
+7,google/pegasus-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Sometimes failure can be a motivator too
+
+POST: Hello /r/loseit. First time poster here (been lurking). I just wanted to share - for the first time since I can remember, I don't want to cry when I step on the scale. My best friend married in August, and I was asked to be a groomsman. I made a goal with myself when he proposed that I was going to lose 50 pounds by his wedding. I failed miserably and had gained 10. I was 260 pounds and the largest I had ever been in my life. I managed to put on a brave face, but the entire weekend I couldn't get over how great everyone else looked. 
+
+After that weekend, I stopped telling myself that ""I can't."" For years, ""I can't run"" was my excuse, and that Monday I ran 2 miles. To be fair, I downloaded the C25K app and there was walking involved in those 2 miles. It was painful, but I ran every time the app told me to. 2.5 months later, I'm still running. Tonight I ran week 5 (8 min run, 5 min walk, 8 min run) and after my shower I stood on the scale; 238 pounds. I am doing this. It's really happening.
+
+TL;DR:","After that weekend, I stopped telling myself that ""I can't."" For years, ""I can't run"" was my excuse, and that Monday I ran 2 miles. Tonight I ran week 5 (8 min run, 5 min walk, 8 min run) and after my shower I stood on the scale; 238 pounds.", I felt like a cow at my best friend's wedding so I started running and I've dropped 22 pounds in 2.5 months.
+8,google-t5/t5-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Need some help/advice.
+
+POST: So here is my story:
+I have always been overweight since I was a kid and have never been able to lose more than a few pounds (partly due to my thyroid problems). I took up cycling two and a half years ago and finally started losing weight! I lost about 30lbs in the first year or so putting me at 150lb. I spent most of last year (january-september) dieting and exercising everyday but only managed to get down to 142 (my lowest weight since middle school!). I got down to 142 rather quickly but no matter what I did I could not manage to lose any more than that. I finally gave up and have since gained 5 more pounds. I am graduating in May from college and would really like to reach my ultimate goal of 125-130lbs by then. Does anyone have any diet/exercise plans they would be willing to share with me?
+
+TL;DR:",r/loseit: i have always been overweight since i was a kid and have never been able to lose more than a few pounds . i took up cycling two and a half years ago and finally started losing weight! i lost about 30lbs in the first year or so putting me at 150lb .," I am female, 5'5"", 147lbs and only have 4 months to lose 20lbs. Don't know how to do it and need help! "
+9,google-t5/t5-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: LPT: Exercise or ""lift"" your neck during your weightloss journey to avoid the common end result of the watermelon on a stick look.
+
+POST: I have lost 80lbs so far and have been a long time lurker on loseit and progresspics. I started to notice a trend in final progress pics, especially in males, that resulted in the head being largely out of proportion to the neck. I'm sure there may be a reason, but I would not know. I also am not trying to encourage huge footballesque necks, but just one that is in proportion. I found myself in the same position during my weight loss and decided to do resistance neck training 2x a week and it greatly improved the proportion. Hope it helps and wish everyone well on their weightloss goals.
+
+TL;DR:","r/loseit: exercise or ""lift"" your neck during your weightloss journey to avoid common end result of the watermelon on a stick look . lpt: i found myself in the same position during my weight loss and decided to do resistance neck training 2x a week .", use resistance training on your neck during weight loss so your head doesn't look giant on your neck once you're fit/skinny.
+10,google-t5/t5-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Friends to Keep Track Of
+
+POST: Hey there folks. I've been on my ""actually getting off my ass and paying attention to calories"" thing for a little over a week now, and I already feel like I'm making awesome progress.
+
+I've got a request, though! What keeps me interested and motivated are the success stories and progress pictures that keep getting posted to /r/loseit every day. Seeing other people stay on track helps me do the same. With that in mind, anyone willing to link up as Friends on the [Lose it!] site to motivate each other? :D The more, the merrier!
+
+TL;DR:","the more, the merrier! anyone willing to link up as Friends on the [lose it!] site to motivate each other? r/loseit is a great place to share success stories and progress pictures .", Let's add each other on fitness sites. Find me  on [Lose it!] and [My Fitness Pal] at norumu[at]gmail.com
+11,google-t5/t5-large,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Loseit, I need advice for my boyfriend...
+
+POST: I've been working on weight loss since January. I've wanted my boyfriend to join me, but I didn't want to pressure him. We live together, though, so it was pretty easy for my new lifestyle to influence him. Finally, six months later, he bought a stationary exercise bike and wants to start losing weight with me. Excellent! 
+
+**Here's the problem:** He's a manager of a fast food restaurant. He almost never works the same shift two days in a row, he works 10 hour shifts and doesn't get a lunch/dinner break. Some days he works his whole shift without eating because he doesn't get a chance to sit down. How can I help him to start eating more healthy under these circumstances? He's trying. He downloaded myfitnesspal for his phone, and as expected, he doesn't eat nearly enough calories in a day... I need to figure out how to help him.
+
+TL;DR:",r/loseit: i've been working on weight loss since January . my boyfriend wants to start losing weight with me . but he works 10 hour shifts and doesn't get a lunch/dinner break .," Boyfriend wants to be healthy, but sometimes only eats one ""meal"" a day because he has a crappy job that doesn't give him a chance to eat."
+12,facebook/bart-large-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Question about properly logging calories burned/exercise
+
+POST: So, stay with me here.  I put my HR monitor on and measured the amount of calories I burned while just sitting in front of the TV and it said I burned around 80 - 100 cal in an hour.  I then used my HR monitor for a half hour jog and multiplied it by 2 giving me a total of around 300 cal/hr.  If MFP already takes into account my resting calories burned to give me my daily goal, does that mean I should be subtracting my resting rate from my calories burned during a workout?  Sorry, this is harder for me to explain in writing, but essentially, if my HR monitor says I burned 300 calories in an hour, shouldn't I subtract the 100 I would have burned doing nothing (as MFP has already counted those calories burned) and only log the additional 200 calories burned?
+
+TL;DR:","Question about properly logging calories burned/exercise. If MFP already takes into account my resting calories burned to give me my daily goal, does that mean I should be subtracting my resting rate from my calories burned during a workout?TL;DR: If my HR monitor says I burned 300 calories in an hour, shouldn't I subtract the 100 I would have burned doing nothing and only log the additional 200 calories burned?", Should I subtract the amount of calories I would have burned at rest from the amount of calories my HR monitor says I burned during a work out to prevent overestimating my calories expended?
+13,facebook/bart-large-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Sharing some data to prove it's okay if you fall off the wagon. (I did, twice!)
+
+POST: F 27 4'11'' SW: 191.6 CW: 156.8 GW: 100
+
+Two years ago, I hit a number on the scale that was terrifying to me, so I downloaded myfitnesspal and tracked what I ate. I lasted about a month and gained 20+ pounds after I stopped, hitting an even higher and scarier number!
+
+A few months later, I tried working out. I don't think I even made it a month. The weight and a little more came back.
+
+The third and final time, something in me snapped. (I was so close to hitting 200 pounds. Nopenopenope) I took baby steps. I stopped drinking sodas, I started drinking a lot of water, I fixed some not weight related issues that were bringing me down (hair and skin), for a while I just tried to make healthier eating choices without tracking. In Feb I did WeightWatchers for 12 weeks (FANTASTIC place to start!) Now, I'm tracking calories with myfitnesspal. I eat around 1200 a day. In the past few weeks, I've started exercising. I've found that I actually enjoy running, so I'm doing the C210K program. I joined a gym with an indoor track because running with humidity was not fun. Plus it has wifi, so I can stream music!
+
+Anyways, the
+
+TL;DR:","R/loseit is a community of people who want to lose weight. This week, we're sharing some of our own weight loss stories. We're also sharing some data to prove it's okay if you fall off the wagon. (I did, twice!)"," If you fall off the wagon, you can always get back on. Making small changes one at a time helped me finally stay on."
+14,facebook/bart-large-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: (Progress) M/20/6'3"" Currently at 230lbs and I've plateaued.
+
+POST: I've always been a sporty kid but have always been on the large side. My parents are somewhat large as well and I guess I got it from them, not that that is an excuse. I was on the football team all the way up until junior year and quit. That is when my body became the POS it was. The most weight that I ever reached was [310lbs.] this was taken 2009. I thought that was absurd and had to do something. So I joined back up with the football team my senior of high school and I lose around 20lbs and put on some muscle. [2010 Last game of my senior year, I'm number 77.](
+
+Fast foward a little bit. College was just an up and down time. I think over my freshman year I lost another 20lbs.
+
+Fast forward to now. I am currently straddling 230lbs. This is  [Pre-Tough Mudder] and [Post-Mudder] and [this is me enjoying the hell out of Tough Mudder] 
+
+I just don't know what to do right now. I lift weights MWF and run 5 miles on TTh and 2.5 miles on MWF. I eat decently enough, considering I am a broke college kid. On a side not: Thanksgiving break ruined me. 
+
+Any suggestions would be great. I am open to anything.
+
+TL;DR:","""I've always been a sporty kid but have always been on the large side. I was on the football team all the way up until junior year and quit. That is when my body became the POS it was"" ""I lift weights MWF and run 5 miles on TTh and 2.5 miles on MWF. I eat decently enough, considering I am a broke college kid""", I've lost 80lbs over three years and I want to lose more. Need some suggestions to get over the 230lbs hump.
+15,facebook/bart-large-cnn,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: [HELP] Side effects of rapid weight loss/poor nutrition. Also, is this Skinny-Fat?
+
+POST: Hi loseit,
+
+First some stats, I'm 5' 9'', 155lbs at the moment. I started at 187, and involuntarily went to 171 after I moved on my own, then I took control and am now at 155.
+
+2 weeks ago I posted this: [Really discouraged after losing 25lbs and discovering that it's probably because of my thyroid.] So I went to the doctor, and from the tests looks like it's not a thyroid problem after all (haven't seen the doctor yet, but my appointment is in 2 weeks)
+I was thinking the hair loss and constipation might be related to vitamin deficiencies, are these common side effects? I searched and found only a couple of posts on each, so it doesn't look too common. If they are, I think we should add them to the FAQ or something.
+
+I bought a multivitamin to try and help, is it going to make me gain weight?
+
+Kind of related, I currently have what I think is a skinny-fat look ([PICs - sorry, shitty camera] and I don't know if I should keep the calorie deficit or start with maintenance mode.
+
+TL;DR:","I was thinking the hair loss and constipation might be related to vitamin deficiencies. I found only a couple of posts on each, so it doesn't look too common. I don't know if I should keep the calorie deficit or start with maintenance mode. I'm 5' 9'', 155lbs at the moment. I started at 187, and involuntarily went to 171.", Is hair loss and constipation a common problem when dieting? Can multivitamin supplements help? Or are they going to interfere with my diet?
+16,Falconsai/text_summarization,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: Friends to Keep Track Of
+
+POST: Hey there folks. I've been on my ""actually getting off my ass and paying attention to calories"" thing for a little over a week now, and I already feel like I'm making awesome progress.
+
+I've got a request, though! What keeps me interested and motivated are the success stories and progress pictures that keep getting posted to /r/loseit every day. Seeing other people stay on track helps me do the same. With that in mind, anyone willing to link up as Friends on the [Lose it!] site to motivate each other? :D The more, the merrier!
+
+TL;DR:","Friends to Keep Track Of POST: Hey there folks. I've been on my ""actually getting off my ass and paying attention to calories"" thing for a little over a week . What keeps me interested and motivated are the success stories and progress pictures that keep getting posted to /r/loseit every day .", Let's add each other on fitness sites. Find me  on [Lose it!] and [My Fitness Pal] at norumu[at]gmail.com
+17,Falconsai/text_summarization,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: NSV- Weight loss noticed at the gym!
+
+POST: 18, F, around 280lbs/127kg but I'm not 100% sure, see below.
+
+I recently signed up on MFP and went to put my weight in. I have only a vague idea of what I weigh, as my scales broke, and my dad bought a new one; they only go up to 266lbs/121kg and as the last time I weighed in, the scale read 290lbs/132kg I was devastated; I was too heavy for the scale. I put in 280lbs/127kg because I really have no clue, but think I lost some. Anyhow I was really upset. I then went off to the gym to pound out some stress and the upset. 
+
+I got there and was pounding it out on the elliptical (docs orders, no running or I'll get arthritis in my 30s)  and this guy came in who I see once or twice a week and he and the guy who owns the gym (small gym, so he's like a PT to us all!) started talking about how I was really going for it. That cheered me up. That was yesterday, and I went back today, and the gym-owner said this: (paraphrased; no eidetic memory for me!)
+
+""You know, you do look a lot smaller than you did when you started, and people are noticing. They're all coming to tell me how much weight you've lost. So your hard work is showing!""
+
+I was so pleased. I still have the resulting grin on my face. It was brilliant to hear and just brightened me up.
+
+TL;DR:","POST: 18, F, around 280lbs/127kg but I'm not 100% sure, see below . I recently signed up on MFP and went to put my weight in . My dad bought a new scale; they only go up to 266lbs/121kg ."," I was a bit upset that I had no clue whether or not I'd lost weight, when people at the gym comment on it, apparently quite a lot. Colour me amazed!"
+18,Falconsai/text_summarization,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: The freshman negative fifteen! First time losing weight
+
+POST: Not looking for sympathy, just sharing my story! When I was 8 I was diagnosed with clinical depression and put on zoloft. Zoloft worked fine for me for a long time, but I did notice one side effect that I'd never experienced before- I was gaining weight. Basically, once the drugs took a hold of my brain I just didn't care and I ate the feelings away. From that point on, I was unable to loose weight and struggled not to gain more.  
+Flash forward 10 years, I'm now 18. Starting college, I was determined not to gain the infamous ""freshman 15"". I've been having a lot of issues emotionally lately. I was also feeling very unhealthy. Right when school was starting around September 1st, I realized I was at an all time high with my weight. Determined to start a new life for myself, I went to see a psychologist to deal with my depression. I have been given a brand new anti-depressant called Viibryd and it has not made me want to ""eat feelings"" at all. As someone who has tried many depression drugs, this is revolutionary for me. I feel better with this pill than I have with any other. Less crazy mood swings too. I have managed to loose 17 pounds since school started (and I actually became a vegetarian!). Might not seem like much, but it is spectacular for me. Never lose hope guys!
+
+TL;DR:",I was diagnosed with clinical depression and put on zoloft . When I was 8 I was unable to loose weight and struggled not to gain more . I've been having a lot of issues emotionally lately .," Depression pills made me perma-fat, I got super depressed and got a new pill and became a vegetarian. Gained freshman negative 15 in college."
+19,Falconsai/text_summarization,r/loseit,"SUBREDDIT: r/loseit
+
+TITLE: NSV - Got Bad News, Still Got Up and Did My Workout.
+
+POST: I've lost about 65lbs since April, and this week I started the C25k program.  I got up at 7am today to start W1D2 when I spoke to my father before leaving the house.  He told me he has cancer.
+
+We talked, I cried, we discussed his options and then I hung up the phone.  I spoke to my boyfriend, and spent a little time hugging and sobbing in his arms... not sounding very victorious right now I know, but bear with me.
+
+After I finished processing the news, I put my running shoes on, grabbed my water and my iPod, and went out and kicked the pavement's ass completing today's C25k workout.  Not only did I not use this as an excuse to stay in bed, but I felt BETTER during and after completing the workout.  Yes, my father is still sick, but going for a jog, helped me cope.  Normally I would have used this as an excuse to stay inside all day, crying, and gorging myself of junk food.  Today, I went for a run and came home to a breakfast of strawberries, nectarines and some light cheese and crackers.
+
+TL;DR:","I got up at 7am today to start W1D2 when I spoke to my father before leaving the house . I talked, I cried, we discussed his options and then I hung up the phone . After I finished processing the news, I put my running shoes on, grabbed my water and my iPod, and went out and kicked the pavement's ass completing today's C25k workout ."," Got really bad news today, but have learned to cope with stress through healthy means like exercise, rather than junk food and self pitty."
