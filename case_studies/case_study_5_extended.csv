@@ -1,4 +1,4 @@
-,Unnamed: 0,model,subreddit,prompt,summary,label,noirScore,bleurtScore,rougeScore,bertScore,bleuScore
+,Unnamed: 0,model,subreddit,prompt,summary,label,score,notes,noirScore,bleurtScore,rougeScore,bertScore,bleuScore
 0,0,ainize/bart-base-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Me[20F] and ex[24M] he got married, had a baby, but still wont leave me alone. Should I tell his wife?
@@ -8,7 +8,7 @@ POST: I was gonna use a throwaway but fuck it. About 15 months ago I started tal
 So reddit should I tell his wife all this? He has a little baby and I'd feel horrible if I some how made a kid lose time with her dad. But at the same time Id want to know if my husband did that to me
 
 TL;DR:","Me[20F] and ex[24M] he got married, had a baby, but still wont leave me alone .
-Should I tell his wife?"," ex got married, proposed to girl with used ring. Still won't leave me alone. Do I tell his wife??",5.32052718166913,-0.9045617580413818,0.5238095238095238,0.8800093531608582,0.2378780280686538
+Should I tell his wife?"," ex got married, proposed to girl with used ring. Still won't leave me alone. Do I tell his wife??",9,,5.32052718166913,-0.9045617580413818,0.5238095238095238,0.8800093531608582,0.2378780280686538
 1,1,ainize/bart-base-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: :( My [27 M] ex-girlfriend [29 F] broke up with me. Post-breakup behaviour is odd. WOULD LIKE ADVICE
@@ -28,7 +28,7 @@ LADIES HELP ME UNDERSTAND lol
 TL;DR:","My [27 M] ex-girlfriend [29 F] broke up with me a little under 2 weeks ago .
 She said it's not longer worth the fight and wanted to break up .
 I disagreed a few times and tried to get her to change her mind, but she didn't and so I simply caved and agreed.
-I left a note on her desk, basically saying that I couldn't help but notice her absence and that I hope she's getting some much needed rest after working hard the last few weeks.", Girlfriend broke up with me. Silent treatment ensued. She has been posting and liking dozens of relationship quotes directed at me. Why?,3.7367122332381038,-1.1458885669708252,0.12280701754385966,0.8306270241737366,0.030504191419925133
+I left a note on her desk, basically saying that I couldn't help but notice her absence and that I hope she's getting some much needed rest after working hard the last few weeks.",Girlfriend broke up with me. Silent treatment ensued. She has been posting and liking dozens of relationship quotes directed at me. Why?,6, mangler hele slutningen,3.7367122332381038,-1.1458885669708252,0.12280701754385966,0.8306270241737366,0.030504191419925133
 2,2,ainize/bart-base-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Pride only hurts, it never helps.
@@ -46,7 +46,7 @@ I understand we weren't technically together, but she made a promise to me befor
 TL;DR:","My girlfriend and I have been dating for a little over 3 years .
 In early February we broke up, but were still in contact with each other everyday .
 Now she tells me that she slept with some guy while on the trip. I'm angry, hurt etc.
-Today had a face to face talk where I forgave her but also said we shouldn't be together or talk anymore."," Girlfriend on break sleeps with another guy (after promising not to), lots of remorse, trying to figure out if I should take her back.",3.7920710597260636,-0.6938673853874207,0.15053763440860216,0.842677116394043,0.0
+Today had a face to face talk where I forgave her but also said we shouldn't be together or talk anymore."," Girlfriend on break sleeps with another guy (after promising not to), lots of remorse, trying to figure out if I should take her back.",8,godt opsummeret men mangler detalje med de havde lovet ikke at sove med andre,3.7920710597260636,-0.6938673853874207,0.15053763440860216,0.842677116394043,0.0
 3,3,ainize/bart-base-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: I [29M] fucked up and broke up with my girlfriend [28F] of 8 years last summer, I really miss her now and want her back.
@@ -64,7 +64,7 @@ What do I do? If someone has gone through this can you please tell me what to do
 TL;DR:","I broke up with my girlfriend of 8 years last summer .
 I really miss her now and want her back.
 I've tried dating around. I thought a rebound girlfriend would help me.
-What do I do? If someone has gone through this can you please tell me what to do to fix this?", I stupidly broke up with my long term girlfriend of 8 years and I realize what a huge mistake I made and I want her back. I really fucked up and I want to make it up to her and be with her again.,3.549873981939518,-0.6621703505516052,0.46938775510204084,0.8803111910820007,0.15009633344771775
+What do I do? If someone has gone through this can you please tell me what to do to fix this?",I stupidly broke up with my long term girlfriend of 8 years and I realize what a huge mistake I made and I want her back. I really fucked up and I want to make it up to her and be with her again.,10,klasse,3.549873981939518,-0.6621703505516052,0.46938775510204084,0.8803111910820007,0.15009633344771775
 4,4,google/pegasus-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Boyfriend is going to start traveling 4-5 days a week for work...
@@ -73,7 +73,7 @@ POST: My boyfriend (mid 20's) and I (also mid 20's) have known each other for ov
 
 He has a great opportunity at work, but this will cause him to be traveling 4-5 days week, pretty much Monday - Thursday for the next 2 months. I know travel can be a strain on relationships, especially new ones, but I'm really excited for him. This is a great opportunity at work, and he's going somewhere I love so hopefully I can visit while he's there. So my question for you RA is if any of you have/had any experience with these situations or have any suggestions that I can use to keep things moving along.
 
-TL;DR:",SUBREDDIT: r/relationships TITLE: Boyfriend is going to start traveling 4-5 days a week for work..., Newish boyfriend (friends for a year before dating) is starting to travel 4-5 days a week for work. Tips or suggestions to keep things exciting/not stressful during this time,6.241283853545352,-0.8594701290130615,0.41666666666666663,0.8773403763771057,0.215073858508128
+TL;DR:",SUBREDDIT: r/relationships TITLE: Boyfriend is going to start traveling 4-5 days a week for work...,Newish boyfriend (friends for a year before dating) is starting to travel 4-5 days a week for work. Tips or suggestions to keep things exciting/not stressful during this time,7,mangler spørgsmålet men er egentlig dejligt kort og dækkende ellers,6.241283853545352,-0.8594701290130615,0.41666666666666663,0.8773403763771057,0.215073858508128
 5,5,google/pegasus-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: 21/F UPDATE. I confronted his fiancé.
@@ -98,7 +98,7 @@ We may have met through weird circumstances but I may have made a new friend.
 
 I don't regret telling her one bit, she seems like a wonderful person and she didn't deserve what he was doing to her.
 
-TL;DR:","POST: Link to original post. After I made the original post I gave him one more opportunity to come clean to his fiancée. I told her to call me if she had any questions regarding what I sent her. But the news I gave her needed to be discussed over the phone or in person. I don't regret telling her one bit, she seems like a wonderful person and she didn't deserve what he was doing to her."," Guy tried cheating with me. Sent screenshots to his fiancée, she was thankful that I told her. We bonded over his misery.",3.5737709643924602,-1.0098421573638916,0.23076923076923075,0.8469252586364746,0.0
+TL;DR:","POST: Link to original post. After I made the original post I gave him one more opportunity to come clean to his fiancée. I told her to call me if she had any questions regarding what I sent her. But the news I gave her needed to be discussed over the phone or in person. I don't regret telling her one bit, she seems like a wonderful person and she didn't deserve what he was doing to her."," Guy tried cheating with me. Sent screenshots to his fiancée, she was thankful that I told her. We bonded over his misery.",6,Fint nok men mangler noget kontekst så man forstår historien,3.5737709643924602,-1.0098421573638916,0.23076923076923075,0.8469252586364746,0.0
 6,6,google/pegasus-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Me [26 M] with my ex [25 F] broke up and I feel guilty and sad since I initiated it
@@ -115,7 +115,7 @@ I haven't reached out to her since then either. But this whole thing makes me sa
 
 I don't necessarily have a question. I guess I just needed to talk about it. If anyone has any words of advice or wisdom, I'm all ears.
 
-TL;DR:","SUBREDDIT: r/relationships TITLE: Me [26 M] with my ex [25 F] broke up and I feel guilty and sad since I initiated it POST: We had been dating for about six months and things were going reasonably well. She often seemed to have a reason like that and obviously I didn't ever want to be so pushy I always felt compelled to drop it even though this frustrated me greatly. I broke up with her recently, telling her that there were some incompatibilities that I couldn't handle anymore but never actually saying what it was because it didn't seem to me like I needed to be that blunt about it.", I initiated a breakup due to lack of passion in the relationship even though everything else about the relationship was just fine.  I feel horrible about it. Any words of advice?,4.921670222298053,-1.1745779514312744,0.16551724137931034,0.819886326789856,0.0
+TL;DR:","SUBREDDIT: r/relationships TITLE: Me [26 M] with my ex [25 F] broke up and I feel guilty and sad since I initiated it POST: We had been dating for about six months and things were going reasonably well. She often seemed to have a reason like that and obviously I didn't ever want to be so pushy I always felt compelled to drop it even though this frustrated me greatly. I broke up with her recently, telling her that there were some incompatibilities that I couldn't handle anymore but never actually saying what it was because it didn't seem to me like I needed to be that blunt about it.",I initiated a breakup due to lack of passion in the relationship even though everything else about the relationship was just fine.  I feel horrible about it. Any words of advice?,8,godt opsummeret men lidt langt,4.921670222298053,-1.1745779514312744,0.16551724137931034,0.819886326789856,0.0
 7,7,google/pegasus-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Me [21 M] with my GF [23 F] 6 months, girlfriend talks to exes and gets mad when I talk to girls
@@ -132,14 +132,14 @@ Anyways, now my GF is pissed that I'm talking to one good looking female friend,
 
 There are always guys from her past, buzzing around our relationship, putting me down because I'm younger, etc. She has a lot of sexual partners, and they seem to come back around. I have none, so every girl I talk to, has only ever been just a friend.
 
-TL;DR:","SUBREDDIT: r/relationships TITLE: Me [21 M] with my GF [23 F] 6 months, girlfriend talks to exes and gets mad when I talk to girls POST: So my GF is my first sexual partner, my GF has had many. Recently, I've been in these group chats with old elementary school friends, mostly the same 2-3 girls, and they just talk about some of the sketchy people from our class and where the heck they made it off to."," GF talks to guys from her past, but gets mad when I talk to old female friends. What should I do?",2.905914722043297,-1.4795749187469482,0.2549019607843137,0.8254407644271851,0.059629850828707726
+TL;DR:","SUBREDDIT: r/relationships TITLE: Me [21 M] with my GF [23 F] 6 months, girlfriend talks to exes and gets mad when I talk to girls POST: So my GF is my first sexual partner, my GF has had many. Recently, I've been in these group chats with old elementary school friends, mostly the same 2-3 girls, and they just talk about some of the sketchy people from our class and where the heck they made it off to."," GF talks to guys from her past, but gets mad when I talk to old female friends. What should I do?",8,Egentligt godt opsummeret bare lidt langt,2.905914722043297,-1.4795749187469482,0.2549019607843137,0.8254407644271851,0.059629850828707726
 8,8,google-t5/t5-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: My [20F] boyfriend [21M] likes to piss me off?
 
 POST: So I'm currently pregnant so its possible I'm reading too much into this but he seems to enjoy making me angry? For example, today we were talking and his best friend has recently started dating a girl that he has a history with. Even though she is dating his friend and we're about to have a baby she is still over him and has tried to hook up with him in the past months. He's told her no but it hasn't stopped her from trying. Recently she's backed off a little and is trying to be more of a friend to him and he says that I need to just ""get over it and get along with her."" I don't start fights with her or yell at her I just refuse to be her friend or be around her as I have no desire to keep her company. He mentioned that she invited him to come to some child expo with her (while I'm at work) and he said he didn't want to go without me (for fear that she would try something). And I said that was probably for the best because it would've upset me if he went. Then he responded and said that made him want to go with her just to piss me off because I have no right to get upset. I don't understand why he would want to do something like that to intentionally hurt me. It wasn't like I lost it and ""forbid"" him from going,  I just said it would upset me. Am I overreacting and shouldn't have said that or is he just being an asshole because with my hormones I cant tell anymore.
 
-TL;DR:",my boyfriend likes to piss me off? i'm currently pregnant so its possible I'm reading too much into this but he seems to enjoy making me angry? his best friend has recently started dating a girl that he has a history with . he mentioned that she invited him to come to some child expo with her and he said that made him want to go with her just to hurt me .," Boyfriend wants to go to an expo without me, but with a girl he has a history with after I tell him it will upset me.",3.997077058910421,-0.5642840266227722,0.36363636363636365,0.849941611289978,0.07033758743529261
+TL;DR:",my boyfriend likes to piss me off? i'm currently pregnant so its possible I'm reading too much into this but he seems to enjoy making me angry? his best friend has recently started dating a girl that he has a history with . he mentioned that she invited him to come to some child expo with her and he said that made him want to go with her just to hurt me .," Boyfriend wants to go to an expo without me, but with a girl he has a history with after I tell him it will upset me.",8,den fanger det godt men det er lidt langt og antager måske at han gør det for at såre sin kæreste,3.997077058910421,-0.5642840266227722,0.36363636363636365,0.849941611289978,0.07033758743529261
 9,9,google-t5/t5-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Me [24 M] with my BF [27 M]: His housemate wants me to pay rent and bills just for staying there.
@@ -160,7 +160,7 @@ Generally speaking, I make a conscious effort to not abuse my stay. Admittedly, 
 
 I just needed to vent this. I'll talk to him about it tonight, and if refusing to pay up means I can't stay over as much then I'd be willing to compromise but still WTF.
 
-TL;DR:",i've been with my boyfriend almost 18 months. *i stay at his house (and he has 2 housemates) for *most* nights of the week and somehow this justifies me paying for rent and bills . i don't wash/shower at the house except when i brush my teeth . my boyfriend *assures* me that the cost of bills has not increased since the beginning of our relationship ., BF's housemate wants me to pay rent and bills just because I stay over a lot. Bills have not increased and I don't use water or electricity anyway. Thoughts?,5.466065360265375,-0.7248675227165222,0.2653061224489796,0.8451686501502991,0.0
+TL;DR:",i've been with my boyfriend almost 18 months. *i stay at his house (and he has 2 housemates) for *most* nights of the week and somehow this justifies me paying for rent and bills . i don't wash/shower at the house except when i brush my teeth . my boyfriend *assures* me that the cost of bills has not increased since the beginning of our relationship .,BF's housemate wants me to pay rent and bills just because I stay over a lot. Bills have not increased and I don't use water or electricity anyway. Thoughts?,8,godt opsummeret men kunne godt være lidt kortere,5.466065360265375,-0.7248675227165222,0.2653061224489796,0.8451686501502991,0.0
 10,10,google-t5/t5-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Me 28 F with guy I'm dating 30 M - 1 month, Is it okay to ask if everything is okay or am I being pushy?
@@ -173,7 +173,7 @@ Anyways, as he was walking me out to my car I asked him if everything was okay b
 
 Do you think I am being pushy or too clingy asking that question? I regret asking it right after I asked it because it makes me feel like I have low self-esteem for this relationship. Maybe I just worry too much but it has been eating at me.
 
-TL;DR:","r/relationships: i have been dating this guy for 1 month and everything was great until last Sunday when he wasn't responding to my text . he invited me over last night to watch a movie so i went over and I think we had one conversation the whole night . as he was walking me out to my car I asked him if everything was okay because he had been acting different . his only response was, ""Yes, I'm fine"" and then it got awkward and ", I asked guy I have been dating for a month if everything was okay and now I regret it because I think it makes me look pushy /clingy.,3.220826756428382,-1.0214354991912842,0.3684210526315789,0.8366999626159668,0.05008653382741579
+TL;DR:","r/relationships: i have been dating this guy for 1 month and everything was great until last Sunday when he wasn't responding to my text . he invited me over last night to watch a movie so i went over and I think we had one conversation the whole night . as he was walking me out to my car I asked him if everything was okay because he had been acting different . his only response was, ""Yes, I'm fine"" and then it got awkward and ",I asked guy I have been dating for a month if everything was okay and now I regret it because I think it makes me look pushy /clingy.,6,får ikke slutningen med og slutter midt i en sætning,3.220826756428382,-1.0214354991912842,0.3684210526315789,0.8366999626159668,0.05008653382741579
 11,11,google-t5/t5-large,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: My [F34] ex husband [M33] is dying. I'm not really sure what my place is.
@@ -184,7 +184,7 @@ I went almost immediately. When I got there, we hugged for 5 minutes or so, not 
 
 I feel horrible and I don't know what to do. I didn't speak to his doctor because I was only there for 10 minutes, if that. Later that night I called his room and after I said that it was me, he hung up. His mother said that ""this might be it."" I don't feel right, just leaving things the way they are, but that seems to be what he wants. He doesn't have any siblings, never really had friends and as far as I know, he's not dating anyone. So it's just his mom that's there. What should I do? Keep trying to see him or leave him alone?
 
-TL;DR:","SUBREDDIT: my ex husband is dying. i'm not really sure what my place is . she says he's been fighting cancer for a while now and she should go see him . he was crying, on something, I assume morphine, and asked her to leave .", My [F34] ex husband [M33] is dying. I'm not really sure what my place is. I went to see him but he asked me to leave.,2.789213370116671,-0.977364718914032,0.5833333333333334,0.8818700909614563,0.2065671630912018
+TL;DR:","SUBREDDIT: my ex husband is dying. i'm not really sure what my place is . she says he's been fighting cancer for a while now and she should go see him . he was crying, on something, I assume morphine, and asked her to leave .",My [F34] ex husband [M33] is dying. I'm not really sure what my place is. I went to see him but he asked me to leave.,7,"godt opsumeret men holder ikke helt styr på hvem ""her"" er og mangler lidt problematikken med om hun skal få fat på ham eller ej. Det gør det menneskelige summary dog også",2.789213370116671,-0.977364718914032,0.5833333333333334,0.8818700909614563,0.2065671630912018
 12,12,facebook/bart-large-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: My close friend [both 20F] is getting married abroad but I don't want to go. Am I being selfish?
@@ -201,7 +201,7 @@ POST: We've known each other since teenagers and been through a lot together.  S
 
 What should I do? Am I just being selfish for not wanting to go (after all it's her wedding day)?
 
-TL;DR:","My friend is getting married abroad but I don't want to go. She has cheated multiple times on her fiance and does not plan on ever telling him. I've been to Morocco last yr with her where we stayed with her family and I loathed everything. I am asian, which obviously made me stand out and I was often stared at and had racist remarks shouted at me throughout.", Friend wants to get married to guy she cheated on in Morocco. Don't wanna go cos I hate the place from bad experience and disagree with infidelity.  ,5.844769033978575,-0.9788141846656799,0.2828282828282828,0.8580721616744995,0.0
+TL;DR:","My friend is getting married abroad but I don't want to go. She has cheated multiple times on her fiance and does not plan on ever telling him. I've been to Morocco last yr with her where we stayed with her family and I loathed everything. I am asian, which obviously made me stand out and I was often stared at and had racist remarks shouted at me throughout.",Friend wants to get married to guy she cheated on in Morocco. Don't wanna go cos I hate the place from bad experience and disagree with infidelity.,8,"Godt opsummeret men kunne godt understrege, at hun ikke vil afsted",5.844769033978575,-0.9788141846656799,0.2828282828282828,0.8580721616744995,0.0
 13,13,facebook/bart-large-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Me [26 M] with my ex [25 F] broke up and I feel guilty and sad since I initiated it
@@ -218,7 +218,7 @@ I haven't reached out to her since then either. But this whole thing makes me sa
 
 I don't necessarily have a question. I guess I just needed to talk about it. If anyone has any words of advice or wisdom, I'm all ears.
 
-TL;DR:","A 26-year-old man broke up with his girlfriend after six months of dating. He wanted to take things to the bedroom, but she made excuses about not wanting to get physical. ""I feel guilty that something like this was such a sticking factor to me,"" he says.", I initiated a breakup due to lack of passion in the relationship even though everything else about the relationship was just fine.  I feel horrible about it. Any words of advice?,3.3501452463769374,-0.7033710479736328,0.2,0.8624414205551147,0.0
+TL;DR:","A 26-year-old man broke up with his girlfriend after six months of dating. He wanted to take things to the bedroom, but she made excuses about not wanting to get physical. ""I feel guilty that something like this was such a sticking factor to me,"" he says.",I initiated a breakup due to lack of passion in the relationship even though everything else about the relationship was just fine.  I feel horrible about it. Any words of advice?,9,godt opsummeret dog skrevet i et lidt sjovt format,3.3501452463769374,-0.7033710479736328,0.2,0.8624414205551147,0.0
 14,14,facebook/bart-large-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Me [19/F] just found out my ex [18/M] of seven months, cheated on me three times while we were together.
@@ -229,7 +229,7 @@ We've been broken up for nearly two months now and I'm talking to someone new. B
 
 And just like that, the shirt you gave me that meant so much to me, becomes just another shirt hung up in my wardrobe.
 
-TL;DR:","R/relationships is a Reddit forum for people who are in relationships. This week, a user posted about her ex-boyfriend cheating on her three times in seven months. The third time, she didn't know about, is the reason they broke up. ""It still makes me angry, and at the same time really really sad,"" she wrote."," I've just found out my ex cheated on me three times, and I'm not sure how to feel about it.",1.6351983854120287,-0.9391332268714905,0.2,0.860286295413971,0.0
+TL;DR:","R/relationships is a Reddit forum for people who are in relationships. This week, a user posted about her ex-boyfriend cheating on her three times in seven months. The third time, she didn't know about, is the reason they broke up. ""It still makes me angry, and at the same time really really sad,"" she wrote."," I've just found out my ex cheated on me three times, and I'm not sure how to feel about it.",6,Meget mærkeligt format det er skrevet i og får ikke det hele med,1.6351983854120287,-0.9391332268714905,0.2,0.860286295413971,0.0
 15,15,facebook/bart-large-cnn,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Today, I (19m) found out my girlfriend (17f) lied about her age.
@@ -244,7 +244,7 @@ She now can't sleep and is stressed out to a point where she's crying. Apparentl
 
 Is there any way I can make her feel  little better. I already told her I'm not mad. What else can I do?
 
-TL;DR:","A 19-year-old man found out his girlfriend lied about her age. The girl told him she was 15. She now thinks she's a high risk for him because of their age. He's not mad, he's just a little shocked knowing she's one year younger."," my girlfriend lied about her age, im not mad, she's stressed out now with lots of things going on, and I want to help her feel better.",2.958806686685655,-0.8330145478248596,0.30769230769230765,0.8818933963775635,0.10099544171435354
+TL;DR:","A 19-year-old man found out his girlfriend lied about her age. The girl told him she was 15. She now thinks she's a high risk for him because of their age. He's not mad, he's just a little shocked knowing she's one year younger."," my girlfriend lied about her age, im not mad, she's stressed out now with lots of things going on, and I want to help her feel better.",9,very good summary,2.958806686685655,-0.8330145478248596,0.30769230769230765,0.8818933963775635,0.10099544171435354
 16,16,Falconsai/text_summarization,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: My[25m] girlfriend [24f] is only nice and pleasant when I'm aloof and distant. (9 months)
@@ -259,7 +259,7 @@ This naturally makes me feel cold and indifferent toward her. Once she senses th
 
 **So what do I do here? Do I keep up the aloof, distant attitude to keep her interested or suffer her negging in kindness, my default setting.
 
-TL;DR:","My[25m] girlfriend [24f] is only nice and pleasant when I'm aloof and distant towards my girlfriend, the more pleasant she becomes . She'll come over and clean my apartment, do laundry, dishes and cook for me . As soon as I start doing her favors, she picks fights and complains nonstop . This naturally makes me feel cold and indifferent toward her ."," GF is a meanie-bo-beanie when I'm nice, and an absolute doll when I'm uninterested. Sex is bomb and she's the hottest I've ever dated. What do?",3.532481401565886,-1.1379338502883911,0.23404255319148934,0.8151190280914307,0.0
+TL;DR:","My[25m] girlfriend [24f] is only nice and pleasant when I'm aloof and distant towards my girlfriend, the more pleasant she becomes . She'll come over and clean my apartment, do laundry, dishes and cook for me . As soon as I start doing her favors, she picks fights and complains nonstop . This naturally makes me feel cold and indifferent toward her ."," GF is a meanie-bo-beanie when I'm nice, and an absolute doll when I'm uninterested. Sex is bomb and she's the hottest I've ever dated. What do?",9,Very great summary,3.532481401565886,-1.1379338502883911,0.23404255319148934,0.8151190280914307,0.0
 17,17,Falconsai/text_summarization,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: I [27 M] met an amazing girl [29 F], but my superficial prejudices could screw it up.
@@ -274,7 +274,7 @@ I am very attracted to her when she's clothed, but I have to admit I became less
 
 So now I'm in conflict. I am thinking I want to hang out with her at least one more time to see if I can get over this, but I don't want to lead her on. I hate that my superficial prejudices could screw up an amazing connection like this. What should I do?
 
-TL;DR:","I went on an online date with an amazing girl [29 F] but my superficial prejudices could screw it up . This date was different. We always had something to talk about, and more over we were on the same page . We'd even say the same thing at the same time - it was surreal. This girl is also beautiful.", Met an amazing girl. Had an amazing connection. Problem is she looks better with clothes on than off. I'm in conflict about how to proceed.,3.1953540433862817,-0.999579131603241,0.25882352941176473,0.8359487652778625,0.0
+TL;DR:","I went on an online date with an amazing girl [29 F] but my superficial prejudices could screw it up . This date was different. We always had something to talk about, and more over we were on the same page . We'd even say the same thing at the same time - it was surreal. This girl is also beautiful.",Met an amazing girl. Had an amazing connection. Problem is she looks better with clothes on than off. I'm in conflict about how to proceed.,4,"mangler alt det vigtige, får kun lige starten med",3.1953540433862817,-0.999579131603241,0.25882352941176473,0.8359487652778625,0.0
 18,18,Falconsai/text_summarization,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: Am I [25/F] in the wrong for being incredibly upset that my LDR boyfriend [32] hasn't even texted me today?
@@ -289,7 +289,7 @@ I understand work and life can get in the way, but he used to text me every morn
 
 Am I wrong for waiting for him to text me and just initiate more contact?  Do I have a leg to stand on when I stay I'm upset that I haven't even received a single notice that he's even alive today?
 
-TL;DR:","I have to text him first or he won't text me all day . Recently I've stopped texting first just to see how long it takes him to text me . I'm sure of that, he's a good guy . Am I wrong for waiting for him to send me and initiate more contact?"," LDR boyfriend has been texting less and less, now waiting until late evening to initiate contact.  Do I have any right to be upset for not hearing from him on today of all days?",4.156189146923679,-0.6566399335861206,0.29213483146067415,0.8674960136413574,0.0
+TL;DR:","I have to text him first or he won't text me all day . Recently I've stopped texting first just to see how long it takes him to text me . I'm sure of that, he's a good guy . Am I wrong for waiting for him to send me and initiate more contact?"," LDR boyfriend has been texting less and less, now waiting until late evening to initiate contact.  Do I have any right to be upset for not hearing from him on today of all days?",10,godt opsummeret,4.156189146923679,-0.6566399335861206,0.29213483146067415,0.8674960136413574,0.0
 19,19,Falconsai/text_summarization,r/relationships,"SUBREDDIT: r/relationships
 
 TITLE: My gf[23 F] is depressed over career decisions and I[23 M] want to help but don't know where to begin.
@@ -306,4 +306,4 @@ I'm not sure where to start because she's normally so strong and seeing her this
 
 So, my girlfriend is feeling low and embarrassed over turning down possible dream jobs, not having a stable job at the moment, possibly working a mediocre job she wouldn't like and not finishing school. As her boyfriend, how do I help?
 
-TL;DR:",My girlfriend is cheery and happy whenever she's with me . She's recently lost her job and has been working part time at a coffee shop . I'm trying my best to tell her we'll work on it together ., My Girlfriend is not happy with her career/education decisions as well as unemployment and feeling like a bum. I want to make her happy but don't know how,3.102387285283733,-0.7952119708061218,0.30985915492957744,0.8671959042549133,0.0
+TL;DR:",My girlfriend is cheery and happy whenever she's with me . She's recently lost her job and has been working part time at a coffee shop . I'm trying my best to tell her we'll work on it together .,My Girlfriend is not happy with her career/education decisions as well as unemployment and feeling like a bum. I want to make her happy but don't know how,8,Fanger egentlig meget godt selvom det måske kunne være skrevet bedre,3.102387285283733,-0.7952119708061218,0.30985915492957744,0.8671959042549133,0.0

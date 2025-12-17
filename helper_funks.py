@@ -71,9 +71,9 @@ def compute_scores(df):
   noirScores = []
   
   #Get the prompts and the labels of the given subreddit.
-  prompts = df['Prompt']
-  labels = df['labels']
-  generatedTexts = df['Summary']
+  prompts = df['prompt']
+  labels = df['label']
+  generatedTexts = df['summary']
 
   #Compute the NOIR score for each summary
   for prompt, generatedText in zip(prompts, generatedTexts):    
@@ -90,6 +90,9 @@ def compute_scores(df):
   bertScore = bertscore.compute(predictions=generatedTexts, references=labels, lang='en')['precision']
   
   #Compute the BLEU Score for each summary
-  bleuScore = bleu.compute(predictions=generatedTexts, references=labels)['bleu']
+  bleuScores = []
+  for generatedText, label in zip(generatedTexts, labels):
+    bleuScore = bleu.compute(predictions=[generatedText], references=[label])['bleu']
+    bleuScores.append(bleuScore)
 
-  return noirScore, bleurtScore, rougeScore, bertScore, bleuScore
+  return noirScores, bleurtScore, rougeScore, bertScore, bleuScores
