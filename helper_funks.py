@@ -55,3 +55,41 @@ def NOIR(text, summary):
 
     sque_metric = np.log(k) / np.log(D)
     return sque_metric
+
+
+import time
+import evaluate
+
+#Load the rouge and bleurt metric for evaluation.
+rouge = evaluate.load("rouge")
+bleurt = evaluate.load("bleurt", module_type="metric")
+bertscore = evaluate.load("bertscore")
+bleu = evaluate.load("bleu")
+
+#Compute the NOIR, bleurt and rouge scores for the given pipeline.
+def compute_scores(df):
+  noirScores = []
+  
+  #Get the prompts and the labels of the given subreddit.
+  prompts = df['Prompt']
+  labels = df['labels']
+  generatedTexts = df['Summary']
+
+  #Compute the NOIR score for each summary
+  for prompt, generatedText in zip(prompts, generatedTexts):    
+    noirScore = NOIR(prompt, generatedText)
+    noirScores.append(noirScore)
+  
+  #Compute the BLEURT score for each summary
+  bleurtScore = bleurt.compute(predictions=generatedTexts, references=labels)['scores']
+
+  #Compute the average ROUGE-1, ROUGE-2, ROUGE-L and ROUGE-Lsum for the generated summaries.
+  rougeScore = rouge.compute(predictions=generatedTexts, references=labels, use_aggregator=False)['rouge1']
+  
+  #Compute the BERT Score for each summary
+  bertScore = bertscore.compute(predictions=generatedTexts, references=labels, lang='en')['precision']
+  
+  #Compute the BLEU Score for each summary
+  bleuScore = bleu.compute(predictions=generatedTexts, references=labels)['bleu']
+
+  return noirScore, bleurtScore, rougeScore, bertScore, bleuScore

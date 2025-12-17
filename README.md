@@ -52,6 +52,10 @@ The miles stones of the project are:
 [12] BERT Score - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bertscore. Seen oct 2025.
 [13] BLEU - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bleu. Seen oct 2025.
 
+# Contributions of team members
+
+There has been no real distribution of the work. The team members have worked together, then divided some work, then worked together, then made a different division of some work, etc. such that all team members had a part in all aspects of the report.
+
 # Appendix
 
 ## Repository Organisation
