@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This paper examines the possible existence of biases in commonly used LLMs and evaluation metrics for summarization. The goal of this paper is to broaden the understanding of commonly used LLMs by providing information on which topics the LLMs have an advantage or disadvantage when creating summarizations. This will help applications choose the best model for their type of data, as well as providing insights into what data the different models needs to be fine tuned with in order to have more well rounded LLMs. The models will be evaluated using different metrics in order to check for different types of biases the models have on the different topics. In addition, the study will examine the metrics for biases, in order to evaluate if the metrics have biases on any of the topics. This evaluation of the metrics will allow developers to avoid metrics that perform too poorly or too well on a specific type of data, and thereby getting a more accurate evaluation of the LLMs.
+This paper examines the existence of biases in popular large language models as well as biases in popular evaluation metrics. It will specifically examine models and metrics created with the purpose of generating and evaluating summaries. The evaluations are done on the TL;DR dataset as it provides a large amount of text and summaries divided into 29 different categories. Comparisons were done on summaries from 5 different models which were evaluated using 5 different metrics. The results where compared across all different categories, and the summaries from categories that deviated from most from the mean were subjected to human evaluations and a case study. The study found several different biases including an omission bias towards texts where important aspects of the story only account for very small parts of the text. Additionally, an evaluation bias was found in the NOIR metric, as its focus on capturing semantic meaning of the original post, does not allow it to detect important missing details. Furthermore, a bias was found towards the topics of "BreakUps" and "offmychest", and a hallucination bias was found in the category of "tifu". In conclusion, the study uncovered several pitfalls that you must be aware of when choosing which methods to evaluate your summarization models as well as when choosing what summarization models to use.
 
 ## Contributions
 
@@ -12,9 +12,10 @@ The contribution of this paper is to provide crucial insights into the biases of
 
 ## Methods
 
-The project will be evaluating 5 different models, which all have in common that they have a very high download rate on huggingface.co[2]. The 5 models are T5 small [4], Bart base [5], Pegasus [6], bart-large [3], and T5 Large [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], NOIR[11], GLUE[10], BERT-Score[12], BLEU[13]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information. Not all topics are represented equally in the dataset and to ensure equal representation of topics we will use 114 prompts from each topic, as this is the amount of topics in the least represented topic. We will be using the training part of the dataset in order to maximize the amount of data to evaluate the models on. Using the training part of the dataset is not causing problems as none of the models are trained on this dataset.
+The project will be evaluating 5 different models, which all have in common that they have a very high download rate on huggingface.co[2]. The 5 models are T5 small [4], Bart base [5], Pegasus [6], bart-large [3], and T5 Large [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], NOIR[10], BERT-Score[11], BLEU[12]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information. Not all topics are represented equally in the dataset and to ensure equal representation of topics we will use 114 prompts from each topic, as this is the amount of topics in the least represented topic. We will be using the training part of the dataset in order to maximize the amount of data to evaluate the models on. Using the training part of the dataset is not causing problems as none of the models are trained on this dataset.
 The dataset needs minimal preprocessing and the only real preprocessing needed is to devide the dataset into their respective subreddits. The information of which subreddit a post belongs to is provided as the first information in the prompt. Therefore, the dataset is divided by this provided label. All preprocessing needed for the individual model is handeled by the pipeline functionality of huggingface[1].
-Additionally, the study will include a case study of different examples for each of the models to provide an explanation of why the models/metrics have the biases that was found in the study.
+Additionally, the study will include a case study and a human evaluations of different examples for each of the models to provide an explanation of why the models/metrics have the biases that was found in the study.
+In this study the type of biases that will be examined described by Z. Asimiyu [13], V. Reddy [14], and J. Steen and K. Markert [15]. They introduce multiple types of biases, one of which is omission bias which is where a model systematically exclude key facts or perspectives. Furthermore, hallucination bias where models starts creating summaries that are not supported by the input. In addition, biases such as metric blindness is introduced where metrics does not catch errors in certain subgroups of the data. A more comprehensive explanation of the term "bias" as it is used in this study can be found in the attached report.
 
 ## Timeline
 
@@ -47,10 +48,12 @@ The miles stones of the project are:
 [7] google-t5/t5-large · Hugging Face. 5. marts 2024, https://huggingface.co/google-t5/t5-large.
 [8] ROUGE - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/rouge. Seen oct 2025.
 [9] BLEURT - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bleurt. Seen oct 2025.
-[10] GLUE - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/glue. Seen oct 2025.
-[11] Foland, Andrew D. “An Automated Length-Aware Quality Metric for Summarization”. arXiv:2507.07653, arXiv, 10. juli 2025. arXiv.org, https://doi.org/10.48550/arXiv.2507.07653.
-[12] BERT Score - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bertscore. Seen oct 2025.
-[13] BLEU - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bleu. Seen oct 2025.
+[10] Foland, Andrew D. “An Automated Length-Aware Quality Metric for Summarization”. arXiv:2507.07653, arXiv, 10. juli 2025. arXiv.org, https://doi.org/10.48550/arXiv.2507.07653.
+[11] BERT Score - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bertscore. Seen oct 2025.
+[12] BLEU - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bleu. Seen oct 2025.
+[13] Zainab Asimiyu. Bias in personalized summarization: Risk, detection, and mitigation techniques, 06 2025. urlhttps://www.researchgate.net/publication/393357460 [Accessed: 09/12/2025].
+[14] Vineeth Reddy. Bias taxonomy: A field guide to the hidden biases in ai systems every developer should know. https://huggingface.co/blog/Iceman20/bias-taxonomy [Accessed: 09/12/2025].
+[15] Julius Steen and Katja Markert. Bias in news summarization: Measures, pitfalls and corpora, 2024.
 
 # Contributions of team members
 
@@ -60,14 +63,12 @@ There has been no real distribution of the work. The team members have worked to
 
 ## Repository Organisation
 
-main.ipynb ... our data analysis and preliminary model evaluation and metric analysis
-evals ...folder with results of preliminary evaluation run on 114 examples from each subreddit
+main.ipynb ... most important model evaluations as well as the most important data analysis and case studies.
+evals ... folder with results of preliminary evaluation run on 114 examples from each subreddit.
+evaluations ... folder containing the final evaluations of all 114 examples from each subreddit.
+case_studies ... folder containing the case studies which are the randomly chosen posts and their humanly annotated scores.
+initial_statistics.ipynb ... the majority of the data analysis and the case study evaluations. Includes a large part of the content of main.ipynb, but includes extra information.
 test_data, train_data, validation_data ... folders with subsets of our data
 helper_funks.py ... helper functions needed for evaluation of the models, however, not a central part of the main logic.
 The remaining files are mainly used for internal use and testing in the group.
-
-## Questions for TAs
-
-Under our Milestones, we have listed 3 items marked (if time permits). We would like to ask for advise about which of them should we focus on most, i.e. which one should we prioritize.
-
-Note for TA: The visualizations are not rendered in github, but if you clone the repository and open them in Visual Studio Code the visuallizations are rendered without having to run the code. An extention to handle notebooks might be needed.
+summaries.csv ... posts, summaries and labels for all evaluated data points.
