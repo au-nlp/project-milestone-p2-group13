@@ -15,6 +15,7 @@ The contribution of this paper is to provide crucial insights into the biases of
 The project will be evaluating 5 different models, which all have in common that they have a very high download rate on huggingface.co[2]. The 5 models are T5 small [4], Bart base [5], Pegasus [6], bart-large [3], and T5 Large [7]. The models will be evaluated on the following metrics: Rogue[8], BLEURT[9], NOIR[10], BERT-Score[11], BLEU[12]. The models will be evaluated on the TL;DR [1] dataset. This dataset consists of entries with a prompt and then a completion. The prompt is a text that must be summarized, and this prompt and it summarization have the same semantic information. Not all topics are represented equally in the dataset and to ensure equal representation of topics we will use 114 prompts from each topic, as this is the amount of topics in the least represented topic. We will be using the training part of the dataset in order to maximize the amount of data to evaluate the models on. Using the training part of the dataset is not causing problems as none of the models are trained on this dataset.
 The dataset needs minimal preprocessing and the only real preprocessing needed is to devide the dataset into their respective subreddits. The information of which subreddit a post belongs to is provided as the first information in the prompt. Therefore, the dataset is divided by this provided label. All preprocessing needed for the individual model is handeled by the pipeline functionality of huggingface[1].
 Additionally, the study will include a case study and a human evaluations of different examples for each of the models to provide an explanation of why the models/metrics have the biases that was found in the study.
+In this study the type of biases that will be examined described by Z. Asimiyu [13], V. Reddy [14], and J. Steen and K. Markert [15]. They introduce multiple types of biases, one of which is omission bias which is where a model systematically exclude key facts or perspectives. Furthermore, hallucination bias where models starts creating summaries that are not supported by the input. In addition, biases such as metric blindness is introduced where metrics does not catch errors in certain subgroups of the data. A more comprehensive explanation of the term "bias" as it is used in this study can be found in the attached report.
 
 ## Timeline
 
@@ -50,6 +51,9 @@ The miles stones of the project are:
 [10] Foland, Andrew D. “An Automated Length-Aware Quality Metric for Summarization”. arXiv:2507.07653, arXiv, 10. juli 2025. arXiv.org, https://doi.org/10.48550/arXiv.2507.07653.
 [11] BERT Score - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bertscore. Seen oct 2025.
 [12] BLEU - a Hugging Face Space by evaluate-metric. https://huggingface.co/spaces/evaluate-metric/bleu. Seen oct 2025.
+[13] Zainab Asimiyu. Bias in personalized summarization: Risk, detection, and mitigation techniques, 06 2025. urlhttps://www.researchgate.net/publication/393357460 [Accessed: 09/12/2025].
+[14] Vineeth Reddy. Bias taxonomy: A field guide to the hidden biases in ai systems every developer should know. https://huggingface.co/blog/Iceman20/bias-taxonomy [Accessed: 09/12/2025].
+[15] Julius Steen and Katja Markert. Bias in news summarization: Measures, pitfalls and corpora, 2024.
 
 # Contributions of team members
 
