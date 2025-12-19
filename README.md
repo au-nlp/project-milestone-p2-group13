@@ -64,6 +64,7 @@ There has been no real distribution of the work. The team members have worked to
 ## Repository Organisation
 
 main.ipynb ... most important model evaluations as well as the most important data analysis and case studies.
+main_copy_with_interactive_charts.ipynb ... our original main with our original interactive Altair charts - we had to save and show them them in a different way, because the interactive Altair charts cannot be rendered on GitHub directly
 evals ... folder with results of preliminary evaluation run on 114 examples from each subreddit.
 evaluations ... folder containing the final evaluations of all 114 examples from each subreddit.
 case_studies ... folder containing the case studies which are the randomly chosen posts and their humanly annotated scores.

@@ -2,7 +2,7 @@ import pandas as pd
 import altair as alt
 import numpy as np
 
-def show_me(source, my_title): # simple box plot
+def show_me_boxplot(source, my_title): # simple box plot
     return alt.Chart(source, title=my_title).mark_boxplot().encode(
         x='column',
         y='value',
@@ -11,7 +11,7 @@ def show_me(source, my_title): # simple box plot
     ).properties(width=800).interactive()
     
     
-def show_me_more(source, my_title, my_color, reverse_color=True): # bar chart with line showing average
+def show_me_bar_chart_with_average(source, my_title, my_color, reverse_color=True): # bar chart with line showing average
     bar = alt.Chart(source, title=my_title).mark_bar().encode(
     x=alt.X('Topics:N').sort(),
     y='amount:Q',
