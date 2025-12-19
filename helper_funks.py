@@ -67,7 +67,7 @@ bertscore = evaluate.load("bertscore")
 bleu = evaluate.load("bleu")
 
 #Compute the NOIR, bleurt and rouge scores for the given pipeline.
-def compute_scores(df):
+def compute_evaluation_scores(df):
   noirScores = []
   
   #Get the prompts and the labels of the given subreddit.
