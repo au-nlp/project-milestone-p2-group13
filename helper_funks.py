@@ -66,7 +66,7 @@ bleurt = evaluate.load("bleurt", module_type="metric")
 bertscore = evaluate.load("bertscore")
 bleu = evaluate.load("bleu")
 
-#Compute the NOIR, bleurt and rouge scores for the given pipeline.
+#Compute scores for all metrics for the given pipeline.
 def compute_evaluation_scores(df):
   noirScores = []
   
